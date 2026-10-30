@@ -1,0 +1,126 @@
+Building for debugging...
+[0/12] <local-build-path>
+[1/12] Write sources
+[3/12] Write TidyDesk-entitlement.plist
+[4/12] Write sources
+[6/12] Write swift-version--1AB21518FC5DEDBE.txt
+[8/19] Compiling TidyDeskCore AccessPolicy.swift
+[9/19] Compiling TidyDeskCore ContentMatcher.swift
+[10/19] Compiling TidyDeskCore Scanner.swift
+[11/19] Compiling TidyDeskCore Organizer.swift
+[12/19] Compiling TidyDeskCore CancellationFlag.swift
+[13/19] Emitting module TidyDeskCore
+[14/19] Compiling TidyDeskCore Models.swift
+[15/32] Compiling TidyDeskApp EditionAccess.swift
+[16/32] Compiling TidyDeskApp OwnerIdentity.swift
+[17/32] Compiling TidyDeskApp Theme.swift
+[18/32] Compiling TidyDeskApp TutorialView.swift
+[19/32] Compiling TidyDeskApp TidyDeskApp.swift
+[20/32] Compiling TidyDeskCoreTests SimilarFilesTests.swift
+[21/32] Compiling TidyDeskCoreTests AccessPolicyTests.swift
+[22/32] Compiling TidyDeskCoreTests ContentMatcherTests.swift
+[23/32] Compiling TidyDeskCoreTests OrganizerTests.swift
+[24/32] Emitting module TidyDeskCoreTests
+[25/34] Compiling TidyDeskApp DeskModel.swift
+[26/34] Emitting module TidyDeskApp
+[27/34] Compiling TidyDeskApp ContentView.swift
+[27/34] Write Objects.LinkFileList
+[29/34] Emitting module TidyDeskPackageTests
+[30/34] Compiling TidyDeskPackageTests runner.swift
+[30/34] Write Objects.LinkFileList
+[31/34] Linking TidyDesk
+[32/34] Applying TidyDesk
+[33/34] Linking TidyDeskPackageTests
+Build complete! (48.70s)
+◇ Test run started.
+↳ Testing Library Version: 2084
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite "Local content matching and cancellation — temporary files only" started.
+◇ Suite "Edition access" started.
+◇ Suite "File safety — temporary folders only" started.
+◇ Suite "Stem matching and chosen destinations — temporary folders only" started.
+◇ Test visuallyIdenticalImagesMatchWithoutRelatedNames() started.
+◇ Test cancelledUndoCanBeResumed() started.
+◇ Test scanningCanBeCancelledWithoutChanges() started.
+◇ Test publicBuildCannotBecomeOwner() started.
+◇ Test verifiedPurchaseGrantsProButNotEarlyAccess() started.
+◇ Test documentTextMatchesUnrelatedNames() started.
+◇ Test cancelledMoveRetainsUndoForCompletedFileOnly() started.
+◇ Test wordDocumentsMatchByText() started.
+◇ Test audioMatchingReadsArtistTagsWithDifferentFilenames() started.
+◇ Test cancellationBeforeMoveDoesNotMoveAnything() started.
+◇ Test missingOwnerBindingFailsClosed() started.
+◇ Test differentLoginOrMachineIsLocked() started.
+◇ Test matchingOwnerGetsProAndEarlyAccess() started.
+◇ Test sourceAsDestinationAndSymlinksAreRejected() started.
+◇ Test matchingCanBeCancelledBeforeReading() started.
+◇ Test testPartialUndoCanBeRetried() started.
+◇ Test undoAtChosenDestinationNeverOverwritesOriginal() started.
+◇ Test extensionMatchingIsExplicitAndDoesNotMatchEveryExtensionlessFile() started.
+◇ Test exactStemMatchesAcrossExtensionsIgnoringCase() started.
+◇ Test relatedNamesMatchWordsWithoutGroupingGenericNames() started.
+◇ Test testCrashIntentRecovery() started.
+◇ Test destinationThatAppearsDuringMoveIsPreserved() started.
+◇ Test testConcurrentOrganizerIsRejected() started.
+◇ Test tamperedPreviewCannotEscapeChosenDestination() started.
+◇ Test testAtomicCollisionDuringMoveNeverOverwrites() started.
+◇ Test chosenDestinationCollisionAndRestartUndo() started.
+◇ Test customDestinationPartialFailureIsRecoverable() started.
+◇ Test testInvalidJournalFailsClosed() started.
+◇ Test testScanIsReadOnlyAndSkipsSubfoldersAndSymlinks() started.
+◇ Test testClassificationAndNoExtension() started.
+◇ Test hiddenAndNestedFilesAreNotIncluded() started.
+◇ Test testSymlinkCategoryIsRejected() started.
+◇ Test testUndoCollisionRetainsJournalForRetry() started.
+◇ Test testKeepChangesClearsOnlyHistory() started.
+◇ Test testPartialFailureAndRelaunchUndo() started.
+◇ Test testDestinationCreatedAfterPreviewIsNeverOverwritten() started.
+◇ Test testCollisionUsesSuffixAndUndoPreservesExistingFile() started.
+◇ Test testJournalFailurePreventsMove() started.
+◇ Test testModifiedFileIsRejectedBeforeMoveAndBeforeUndo() started.
+✔ Test publicBuildCannotBecomeOwner() passed after 0.031 seconds.
+✔ Test verifiedPurchaseGrantsProButNotEarlyAccess() passed after 0.031 seconds.
+✔ Test matchingOwnerGetsProAndEarlyAccess() passed after 0.056 seconds.
+✔ Test differentLoginOrMachineIsLocked() passed after 0.056 seconds.
+✔ Test missingOwnerBindingFailsClosed() passed after 0.056 seconds.
+✔ Test scanningCanBeCancelledWithoutChanges() passed after 0.057 seconds.
+✔ Test audioMatchingReadsArtistTagsWithDifferentFilenames() passed after 0.082 seconds.
+✔ Test matchingCanBeCancelledBeforeReading() passed after 0.082 seconds.
+✔ Test sourceAsDestinationAndSymlinksAreRejected() passed after 0.082 seconds.
+✔ Test cancellationBeforeMoveDoesNotMoveAnything() passed after 0.082 seconds.
+✔ Test documentTextMatchesUnrelatedNames() passed after 0.082 seconds.
+✔ Test extensionMatchingIsExplicitAndDoesNotMatchEveryExtensionlessFile() passed after 0.082 seconds.
+✔ Test exactStemMatchesAcrossExtensionsIgnoringCase() passed after 0.083 seconds.
+✔ Test relatedNamesMatchWordsWithoutGroupingGenericNames() passed after 0.083 seconds.
+✔ Test testConcurrentOrganizerIsRejected() passed after 0.082 seconds.
+✔ Test testCrashIntentRecovery() passed after 0.083 seconds.
+✔ Test undoAtChosenDestinationNeverOverwritesOriginal() passed after 0.083 seconds.
+✔ Test cancelledMoveRetainsUndoForCompletedFileOnly() passed after 0warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+.083 seconds.
+✔ Test tamperedPreviewCannotEscapeChosenDestination() passed after 0.082 seconds.
+✔ Test testInvalidJournalFailsClosed() passed after 0.082 seconds.
+✔ Test testScanIsReadOnlyAndSkipsSubfoldersAndSymlinks() passed after 0.082 seconds.
+✔ Test testAtomicCollisionDuringMoveNeverOverwrites() passed after 0.082 seconds.
+✔ Test cancelledUndoCanBeResumed() passed after 0.083 seconds.
+✔ Test destinationThatAppearsDuringMoveIsPreserved() passed after 0.083 seconds.
+✔ Test testClassificationAndNoExtension() passed after 0.079 seconds.
+✔ Test hiddenAndNestedFilesAreNotIncluded() passed after 0.079 seconds.
+✔ Test testPartialUndoCanBeRetried() passed after 0.083 seconds.
+✔ Test testSymlinkCategoryIsRejected() passed after 0.078 seconds.
+✔ Test testDestinationCreatedAfterPreviewIsNeverOverwritten() passed after 0.072 seconds.
+✔ Test testKeepChangesClearsOnlyHistory() passed after 0.072 seconds.
+✔ Test customDestinationPartialFailureIsRecoverable() passed after 0.083 seconds.
+✔ Test testUndoCollisionRetainsJournalForRetry() passed after 0.079 seconds.
+✔ Suite "Edition access" passed after 0.084 seconds.
+✔ Test chosenDestinationCollisionAndRestartUndo() passed after 0.083 seconds.
+✔ Suite "Stem matching and chosen destinations — temporary folders only" passed after 0.084 seconds.
+✔ Test testCollisionUsesSuffixAndUndoPreservesExistingFile() passed after 0.073 seconds.
+✔ Test testPartialFailureAndRelaunchUndo() passed after 0.076 seconds.
+kIOSurfaceMethodSetCoreVideoBridgedKeys failed: 10000003
+sysctlbyname for kern.hv_vmm_present failed with status -1✔ Test wordDocumentsMatchByText() passed after 0.090 seconds.
+✔ Test testModifiedFileIsRejectedBeforeMoveAndBeforeUndo() passed after 0.079 seconds.
+✔ Test visuallyIdenticalImagesMatchWithoutRelatedNames() passed after 0.095 seconds.
+✔ Suite "Local content matching and cancellation — temporary files only" passed after 0.095 seconds.
+✔ Test testJournalFailurePreventsMove() passed after 0.164 seconds.
+✔ Suite "File safety — temporary folders only" passed after 0.176 seconds.
+✔ Test run with 39 tests in 4 suites passed after 0.176 seconds.
