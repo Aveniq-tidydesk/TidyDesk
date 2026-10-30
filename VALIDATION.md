@@ -1,6 +1,6 @@
 # TidyDesk 1.0.0 validation
 
-Prepared 31 October 2026 (Australia/Melbourne). The release is staged privately on GitHub for owner review; it has not been publicly published.
+Prepared 31 October 2026 (Australia/Melbourne). The release was approved by the owner for publication on GitHub.
 
 ## Build
 

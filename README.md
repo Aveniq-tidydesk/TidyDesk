@@ -18,7 +18,7 @@ A free, native macOS file organiser. Choose a folder, review where files will go
 4. Drag `TidyDesk.app` into Applications. If updating, finish or Undo any active organisation and quit TidyDesk first. Preserve the app's local data so its Undo record remains available.
 5. Open TidyDesk. The notarisation warning above applies to downloaded copies.
 
-The repository is staged privately and the release remains a draft until the owner approves publication.
+Download the published release at https://github.com/Aveniq-tidydesk/TidyDesk/releases/tag/v1.0.0.
 
 ## First use
 

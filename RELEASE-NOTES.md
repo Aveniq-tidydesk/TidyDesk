@@ -14,4 +14,4 @@ Download asset: `TidyDesk-1.0.0-macOS-arm64.zip`. Verify its hash using `SHA256S
 
 All 39 automated tests passed. Native temporary-folder testing verified organisation, collision handling, cancellation and Undo after restart, with original file hashes restored. See `VALIDATION.md`.
 
-This is a locally prepared release; publishing requires the owner's separate approval.
+Published on GitHub with the owner's approval.
